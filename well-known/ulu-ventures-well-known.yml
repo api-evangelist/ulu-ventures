@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://uluventures.com
+host: https://uluventures.com
+note: The site is a WordPress install whose catch-all route returns the HTML
+  homepage (HTTP 200, text/html) for every unknown path, so raw 200 statuses
+  below are soft-404s. Content inspection confirmed none of these discovery
+  documents actually exist; no raw files were saved.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  soft_404: true
+  present: false
+- path: /.well-known/openid-configuration
+  status: 200
+  soft_404: true
+  present: false
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  soft_404: true
+  present: false
+- path: /.well-known/api-catalog
+  status: 200
+  soft_404: true
+  present: false
+- path: /.well-known/ai-plugin.json
+  status: 200
+  soft_404: true
+  present: false
+- path: /llms.txt
+  status: 200
+  soft_404: true
+  present: false

@@ -1,19 +1,46 @@
 aid: ulu-ventures
 name: Ulu Ventures
-description: Ulu Ventures is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ulu Ventures is a seed-stage venture capital firm based in Palo Alto,
+  California, founded by Miriam Rivera and Clint Korver. The firm applies decision
+  analysis to venture investing and backs diverse founder teams, having funded 200+
+  companies producing 10 unicorns and 3 public companies over 14+ years, growing
+  from $3.5M in initial capital to a $138M second institutional fund. Ulu Ventures
+  publishes no public API surface; this profile captures the firm's identity, web
+  properties, and probed security posture.
 url: https://raw.githubusercontent.com/api-evangelist/ulu-ventures/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://uluventures.com/wp-content/uploads/ulu-logo-padded.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Venture Capital
+- Seed Stage
+- Investing
+- Decision Science
+- Diversity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,15 @@ maintainers:
 common:
 - type: Website
   url: https://uluventures.com
+- type: Blog
+  url: https://uluventures.com/insights-blog/
+- type: PrivacyPolicy
+  url: https://uluventures.com/privacy-policy/
+- type: TermsOfService
+  url: https://uluventures.com/terms-of-use/
+- type: GitHubOrganization
+  url: https://github.com/ulu-ventures
+- type: LLMsTxt
+  url: llms/ulu-ventures-llms.txt
+- type: DomainSecurity
+  url: security/ulu-ventures-domain-security.yml

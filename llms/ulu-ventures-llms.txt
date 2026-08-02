@@ -1,0 +1,35 @@
+# Ulu Ventures
+
+> Ulu Ventures is a seed-stage venture capital firm in Palo Alto, California, founded by Miriam Rivera and Clint Korver. The firm applies decision analysis ("decision science") to seed investing and invests in diverse founder teams, having funded 200+ companies with 10 unicorns and 3 public companies across 14+ years. Ulu Ventures publishes no public API surface; this file indexes the firm's public web properties and the API Evangelist profile artifacts for this company.
+
+Ulu Ventures grew from $3.5M in initial capital to a $66M first institutional fund and a $138M second fund. Seed-stage investing is the firm's exclusive focus.
+
+## Company
+
+- [Website](https://uluventures.com): Ulu Ventures home page
+- [About Ulu](https://uluventures.com/about-ulu/): firm history, thesis, and track record
+- [Team](https://uluventures.com/who-we-are/): partners and staff
+- [Portfolio Companies](https://uluventures.com/companies/): companies Ulu has funded
+- [Recent Investments](https://uluventures.com/new-investments/): latest deals
+- [Approach](https://uluventures.com/working-with-ulu/): the decision-analysis investment process
+- [Apply for Funding](https://uluventures.com/become-an-ulupreneur/): pitch intake for founders
+- [Blog](https://uluventures.com/insights-blog/): Ulu insights blog
+- [News](https://uluventures.com/ulupreneurs-in-the-news/): portfolio press coverage
+- [Portfolio Jobs](https://jobs.uluventures.com/companies): jobs board across portfolio companies
+- [GitHub Organization](https://github.com/ulu-ventures): open-source decision-analysis tools (VCDA)
+
+## Policies
+
+- [Privacy Policy](https://uluventures.com/privacy-policy/)
+- [Terms of Use](https://uluventures.com/terms-of-use/)
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/ulu-ventures/refs/heads/main/apis.yml): machine-readable company profile
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/ulu-ventures/refs/heads/main/security/ulu-ventures-domain-security.yml): probed TLS/DNSSEC/SPF/DMARC posture
+- [Well-known probe index](https://raw.githubusercontent.com/api-evangelist/ulu-ventures/refs/heads/main/well-known/ulu-ventures-well-known.yml): /.well-known discovery-surface probe results
+
+## Notes
+
+- No public API, developer portal, OpenAPI, SDKs, CLI, or MCP server was found for Ulu Ventures as of 2026-07-21.
+- The uluventures.com WordPress site serves its homepage for unknown paths, so HTTP 200 responses on discovery paths are soft-404s.
