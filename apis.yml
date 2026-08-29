@@ -8,6 +8,9 @@ description: Ulu Ventures is a seed-stage venture capital firm based in Palo Alt
   publishes no public API surface; this profile captures the firm's identity, web
   properties, and probed security posture.
 url: https://raw.githubusercontent.com/api-evangelist/ulu-ventures/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Ulu Ventures publishes no public API surface; this profile captures the firm's identity, web properties, and probed security posture."
 deliveryModel:
   model: saas
   open_source: false
